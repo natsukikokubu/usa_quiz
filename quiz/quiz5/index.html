@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <h1 class="quiz-number">Quiz5</h1>
+  <h2 class="quiz-question">うさぎの特徴的な耳の役割は？</h2>
+  <button class="answerBtn" type="button" value="answer1" onclick="sendAnswer(1, 3)">
+    バランスを取る
+  </button>
+  <button class="answerBtn" type="button" value="answer2" onclick="sendAnswer(2, 3)">
+    熱を放出する
+  </button>
+  <button class="answerBtn" type="button" value="answer3" onclick="sendAnswer(3, 3)">
+    警戒する
+  </button>
+  <button class="answerBtn" type="button" value="answer4" onclick="sendAnswer(4, 3)">
+    感情を表現する
+  </button>
+
+  <div id="circle" class="circle hidden"></div>
+  <div id="cross" class="cross hidden2">✕</div>
+
+
+  <script type="text/javascript" src="./../main.js"></script>
+  <div class="Next">
+    <input id="nextBtn" type="button" value="次の問題へ" onclick="location.href='../lastPage/index.html'">
+  </div>
+
+
+
+</body>

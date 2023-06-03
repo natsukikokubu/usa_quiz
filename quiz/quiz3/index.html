@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <h1 class="quiz-number">quiz3</h1>
+  <h2 class="quiz-question">うさぎが自分の体のために食べるものは次のうちどれでしょう。</h2>
+  <button class="answerBtn" type="button" value="answer1" onclick="sendAnswer(1, 1)">
+    自分のうんち
+  </button>
+  <button class="answerBtn" type="button" value="answer2" onclick="sendAnswer(2, 1)">
+    自分の爪
+  </button>
+  <button class="answerBtn" type="button" value="answer3" onclick="sendAnswer(3, 1)">
+    自分の毛
+  </button>
+  <button class="answerBtn" type="button" value="answer4" onclick="sendAnswer(4, 1)">
+    自分の鼻水
+  </button>
+
+  <div id="circle" class="circle hidden"></div>
+  <div id="cross" class="cross hidden2">✕</div>
+
+
+  <script type="text/javascript" src="./../main.js"></script>
+  <div class="Next">
+    <input id="nextBtn" type="button" value="次の問題へ" onclick="location.href='../quiz4/index.html'">
+  </div>
+
+
+
+</body>

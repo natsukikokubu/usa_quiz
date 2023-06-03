@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+  <h1 class="quiz-number">Quiz1</h1>
+  <h2 class="quiz-question">うさぎの平均寿命は？</h2>
+  <button class="answerBtn" type="button" value="answer1" onclick="sendAnswer(1, 2)">
+    2~4年
+  </button>
+  <button class="answerBtn" type="button" value="answer2" onclick="sendAnswer(2, 2)">
+    8~10年
+  </button>
+  <button class="answerBtn" type="button" value="answer3" onclick="sendAnswer(3, 2)">
+    15~20年
+  </button>
+  <button class="answerBtn" type="button" value="answer4" onclick="sendAnswer(4, 2)">
+    25年以上
+  </button>
+  <div id="circle" class="circle hidden"></div>
+  <div id="cross" class="cross hidden2">✕</div>
+
+
+  <script type="text/javascript" src="./../main.js"></script>
+
+  <div class="Next">
+    <input id="nextBtn" type="button" value="次の問題へ" onclick="location.href='../quiz2/index.html'">
+  </div>
+
+</body>
+
+</html>
